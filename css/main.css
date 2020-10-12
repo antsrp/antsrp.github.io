@@ -30,8 +30,8 @@
     padding: 2em; */
     position: absolute;
     left: 10em;
-    margin: 10em;
-    padding: 10em;
+    margin: 10em; 
+    padding: 10em; 
 }
 .description h1{
  color:#F97300 ;
@@ -113,4 +113,13 @@
 }
 .lr .card-body{
  padding: 1em;
+}
+
+@media (max-width: 1115px){
+.description{
+	position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
 }
