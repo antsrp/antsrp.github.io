@@ -53,7 +53,7 @@
  padding: 1em;
  position: relative;
 }
-.about h1, .lr h1{
+.about h1, .lr h1, .nd h1{
  color:#F97300;
  margin: 1em; 
  margin-top: 0;
@@ -123,3 +123,33 @@
     padding: 2em;
 }
 }
+
+#siteRef, #siteRef:visited{
+  color: #3FDBEE;
+}
+
+.nd{
+ margin: 4em 0;
+ position: relative;  
+}
+
+.nd .item{
+ position: relative;
+}
+
+.des a{
+  color: #F97300;
+  border-color: #F97300;
+  margin: 1em;
+}
+
+.or:hover, .or:active{
+  background-color: #F97300;
+  border-color: #F97300;
+}
+
+.nd img{
+  width: 15em;
+  height: 15em; 
+ object-fit: cover; 
+} 
