@@ -1,7 +1,7 @@
 .navbar{ background:#F97300;}
 .nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
 .nav-link{ margin-right: 1em !important;}
-.nav-link:hover{ background: #f4f4f4; color: #f97300; }
+.nav-link:hover, .navbar-brand:hover{ background: #f4f4f4; color: #f97300; }
 .navbar-collapse{ justify-content: flex-end;}
 .navbar-toggler{  background:#fff !important;}
 .bg-primary{background-color:#007bff!important;}
@@ -41,11 +41,6 @@
  font-size: 20px;
  width: 50%;
  line-height: 1.5;
-}
-.description button{
- border:1px  solid #F97300;
- background:#F97300;
- color:#fff;
 }
 
 .about, .lr{
@@ -124,10 +119,6 @@
 }
 }
 
-#siteRef, #siteRef:visited{
-  color: #3FDBEE;
-}
-
 .nd{
  margin: 4em 0;
  position: relative;  
@@ -137,15 +128,23 @@
  position: relative;
 }
 
-.des a{
+.or{
   color: #F97300;
   border-color: #F97300;
   margin: 1em;
+  margin-left: 0;
 }
 
 .or:hover, .or:active{
   background-color: #F97300;
   border-color: #F97300;
+}
+
+#nohref{
+  color: #F97300;
+}
+#nohref:hover{
+  color: #FFF;
 }
 
 .nd img{
